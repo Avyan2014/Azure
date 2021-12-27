@@ -4,6 +4,7 @@ on:
   push: 
     branches: 
       - "feature/*"
+      - 'releases/**'
   pull_request:
     branches:
       - develop
