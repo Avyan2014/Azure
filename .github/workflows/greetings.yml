@@ -1,7 +1,9 @@
 name: Greetings
 
 on:
-  push:
+  push: 
+    branches: 
+      - "feature/*"
   pull_request:
     branches: [ main ]
   release : 
