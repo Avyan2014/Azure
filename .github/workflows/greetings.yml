@@ -5,6 +5,7 @@ on:
     branches: 
       - "feature/*"
       - 'release/**'
+      - develop
   pull_request:
     branches:
       - develop
