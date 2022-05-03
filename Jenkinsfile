@@ -1,20 +1,11 @@
 pipeline {
-    agent any
-    stages {
-        stage('Build') {
-            steps {
-                echo 'Building..'
-            }
-        }
-        stage('Test') {
-            steps {
-                echo 'Testing..'
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying to stage....'
-            }
-        }
-    }
+  agent any
+  stages {
+	stage('Demo Active Choices Parameter') {
+	  steps {
+		echo "States Selected ${states}"
+		echo "Cities Selected ${cities}"
+	  }
+	}
+  }
 }
